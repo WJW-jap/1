@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>贝斯社 · 活动介绍</title>
+<style>
+  :root{
+    --bg:#0a0b0f;--surface:#101219;--surface2:#141722;
+    --text:#e9e7e2;--muted:#9699a4;--accent:#e0a458;
+    --line:rgba(255,255,255,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:var(--bg);color:var(--text);
+    font-family:"Segoe UI","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    line-height:1.9;-webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:880px;margin:0 auto;padding:0 26px;}
+
+  header{
+    position:sticky;top:0;z-index:50;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 26px;
+    background:rgba(10,11,15,.82);border-bottom:1px solid var(--line);
+    backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  }
+  .logo{font-weight:700;letter-spacing:.14em;font-size:14px;}
+  .logo span{color:var(--accent);font-weight:400;margin-left:8px;font-size:11px;letter-spacing:.2em;}
+  .back{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:9px 18px;border-radius:999px;font-size:13px;
+    border:1px solid rgba(224,164,88,.45);color:var(--accent);
+    background:rgba(224,164,88,.1);transition:.22s;white-space:nowrap;
+  }
+  .back:hover{background:rgba(224,164,88,.22);transform:translateX(-2px);}
+
+  .hero{
+    padding:86px 0 60px;text-align:center;position:relative;overflow:hidden;
+    background:radial-gradient(ellipse at 50% 0%,rgba(224,164,88,.16),transparent 62%);
+    border-bottom:1px solid var(--line);
+  }
+  .hero h1{font-size:clamp(30px,5.4vw,46px);font-weight:700;letter-spacing:.05em;}
+  .hero p{margin-top:14px;color:var(--muted);font-size:13px;letter-spacing:.28em;text-transform:uppercase;}
+
+  main{padding:70px 0 40px;}
+  .intro{font-size:16px;color:#cfccc5;}
+  .intro p{margin-top:18px;}
+
+  h2{
+    margin-top:52px;font-size:22px;font-weight:600;letter-spacing:.04em;
+    padding-left:14px;border-left:3px solid var(--accent);
+  }
+  h2 + p{margin-top:14px;}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:30px;}
+  .card{
+    background:linear-gradient(180deg,var(--surface2),var(--surface));
+    border:1px solid var(--line);border-radius:14px;padding:24px 22px;
+    transition:.25s;
+  }
+  .card:hover{border-color:rgba(224,164,88,.4);transform:translateY(-3px);}
+  .card .no{color:var(--accent);font-size:12px;letter-spacing:.2em;margin-bottom:8px;}
+  .card h3{font-size:17px;font-weight:600;margin-bottom:8px;}
+  .card p{font-size:13.5px;color:var(--muted);line-height:1.8;}
+
+  table{width:100%;border-collapse:collapse;margin-top:26px;font-size:14px;
+    border:1px solid var(--line);border-radius:12px;overflow:hidden;}
+  th,td{padding:13px 16px;border-bottom:1px solid var(--line);text-align:left;}
+  th{background:rgba(255,255,255,.035);color:#ddd9d1;font-weight:600;}
+  tr:last-child td{border-bottom:none;}
+  td:first-child{color:var(--accent);white-space:nowrap;}
+
+  .note{
+    margin-top:34px;padding:22px 24px;border-radius:12px;
+    background:rgba(224,164,88,.07);border:1px solid rgba(224,164,88,.25);
+    font-size:14px;color:#d8d4cb;
+  }
+
+  .footer-cta{display:flex;justify-content:center;margin:56px 0 30px;}
+  .footer-cta a{
+    display:inline-flex;align-items:center;gap:10px;
+    padding:14px 38px;border-radius:999px;
+    background:linear-gradient(135deg,#e0a458,#b9743a);color:#191207;
+    font-weight:700;letter-spacing:.06em;font-size:14px;
+    box-shadow:0 10px 30px rgba(224,164,88,.26);transition:.24s;
+  }
+  .footer-cta a:hover{transform:translateY(-2px);box-shadow:0 14px 40px rgba(224,164,88,.4);}
+
+  footer{
+    padding:40px 0;border-top:1px solid var(--line);text-align:center;
+    color:var(--muted);font-size:12px;line-height:2;background:#08090d;
+  }
+  footer .brand{color:var(--accent);letter-spacing:.22em;font-weight:600;margin-bottom:6px;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">BASS CLUB <span>贝斯社</span></div>
+  <a class="back" href="wang-0138-work2.html">← 返回招新主页</a>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>贝斯社 · 活动介绍</h1>
+    <p>Activities &amp; Workshops</p>
+  </div>
+</section>
+
+<main>
+  <div class="wrap">
+    <div class="intro">
+      <p>贝斯社的活动围绕"学、练、演"三个环节展开:先学会把一根弦弹稳,再在合奏里学会倾听,最后站上舞台把低音交给观众。这里没有门槛,只有节奏。</p>
+      <p>下面是社团最具代表性的四类活动,以及 2026 年春季学期的主要安排。首次参加的同学无需自备乐器,社团会提供公用贝斯与音箱。</p>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <div class="no">01</div>
+        <h3>基础教学公开课</h3>
+        <p>从持琴姿势、左右手配合到节拍器练习,配合社团自编《低音入门十二讲》,帮助零基础同学在四周内完成第一首完整曲目。</p>
+      </div>
+      <div class="card">
+        <div class="no">02</div>
+        <h3>分组合奏排练</h3>
+        <p>按风格分为 Funk、Jazz、City Pop 与摇滚四组,由老成员带队拆解经典贝斯线,学习如何在乐队中"让位"与"补位"。</p>
+      </div>
+      <div class="card">
+        <div class="no">03</div>
+        <h3>低音律动工作坊</h3>
+        <p>每学期一次,围绕 groove、Walking Bass、Slap 与指弹技巧展开,邀请校外资深乐手做一次面对面的分享与即兴示范。</p>
+      </div>
+      <div class="card">
+        <div class="no">04</div>
+        <h3>汇报演出与音乐节</h3>
+        <p>期中汇报演出与春季草坪音乐节,是每个成员真正的舞台。从走台、调音到正式演出,完整体验一次乐队的现场流程。</p>
+      </div>
+    </div>
+
+    <h2>近期活动一览</h2>
+    <p>以下为 2026 年春季学期的主要公开活动,完整安排请见招新主页的"活动安排"表格。</p>
+
+    <table>
+      <tr><th>活动</th><th>时间</th><th>地点</th></tr>
+      <tr><td>新成员见面会</td><td>3 月 5 日 19:00–21:00</td><td>艺术楼 A302</td></tr>
+      <tr><td>贝斯基础教学公开课</td><td>3 月 6 日 19:00–21:00</td><td>艺术楼 A302</td></tr>
+      <tr><td>低音律动工作坊</td><td>3 月 19 日 18:30–21:30</td><td>排练厅 B105</td></tr>
+      <tr><td>期中汇报演出</td><td>4 月 2 日 19:00–21:00</td><td>大学生活动中心</td></tr>
+      <tr><td>春季草坪音乐节</td><td>5 月 7 日 19:00–22:00</td><td>中心草坪</td></tr>
+    </table>
+
+    <div class="note">
+      温馨提示:新成员见面会与贝斯基础教学公开课在同一间教室(艺术楼 A302)举行,建议连续参加,便于跟上后续课程节奏。若时间冲突,可联系社团负责人单独安排补课。
+    </div>
+
+    <div class="footer-cta">
+      <a href="wang-0138-work2.html">← 返回贝斯社招新网页</a>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="brand">BASS CLUB · 贝斯社</div>
+  <p>低音不响,却撑起整片天空。</p>
+  <p>© 2026 贝斯社 · 校园乐队联盟</p>
+</footer>
+
+</body>
+</html>
